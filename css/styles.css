@@ -1,9 +1,10 @@
-h1{
-    text-align: center;
+.wrapper{
+    margin: auto;
+    max-width: 790px;
 }
 
-header, section, .fixed a{
-    max-width: 790px;
+h1{
+    text-align: center;
 }
 
 header{
@@ -68,6 +69,7 @@ nav ul{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    width: auto;
 }
 
 nav a:hover{

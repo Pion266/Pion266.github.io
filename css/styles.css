@@ -3,17 +3,11 @@
     max-width: 790px;
 }
 body{
-    padding: 0;
-    margin: 0;
     background-color: #FD816C;
     background-image: url("../img/bkg.png");
-    background-repeat: repeat-x;
-    width: 1920px;
+    background-repeat: repeat-x ;
+    max-width: 1920px;
  }
-.bkg{
-
-
-}
 h1{
     text-align: center;
 }
@@ -25,9 +19,6 @@ header{
 section{
     margin: 0 auto;
 }
-
-
-
 h1, h2{
     font-family: Impact, Charcoal, sans-serif;
     font-weight: normal;
@@ -77,23 +68,60 @@ nav ul{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    width: auto;
+    max-width: 790px;
 }
 
 nav a:hover{
     background-color: crimson;
 }
 
-h1 a{
+h1 span{
     text-decoration: none;
     color: brown;
-}
-
-h1 a:hover{
-    cursor: help;
 }
 .float_r{
     float: right;
     max-width: 40%;
     margin-left: 15px;
 }
+/* Dropdown Button */
+.dropbtn {
+    background-color: crimson;
+    color: white;
+    padding: 16px 20px 16px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #FD816C;}

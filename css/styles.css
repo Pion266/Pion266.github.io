@@ -89,3 +89,8 @@ h1 a{
 h1 a:hover{
     cursor: help;
 }
+.float_r{
+    float: right;
+    max-width: 40%;
+    margin-left: 15px;
+}

@@ -2,9 +2,16 @@
     margin: auto;
     max-width: 790px;
 }
-.bkg{
-    background: url("../img/bkg.png") no-repeat;
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #FD816C;
+    background-image: url("../img/bkg.png");
+    background-repeat: repeat-x;
     width: 1920px;
+ }
+.bkg{
+
 
 }
 h1{
@@ -19,11 +26,7 @@ section{
     margin: 0 auto;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    background: #FD816C;
-}
+
 
 h1, h2{
     font-family: Impact, Charcoal, sans-serif;

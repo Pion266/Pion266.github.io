@@ -11,6 +11,17 @@ body{
 h1{
     text-align: center;
 }
+@media screen and (max-width: 480px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .moblie-only {
+        display: none;
+    }
+}
 header{
     margin: 55px auto auto auto;
 }
@@ -69,13 +80,15 @@ nav a:hover{
     background-color: crimson;
 }
 h1 span{
-    text-decoration: none;
-    color: brown;
+    color: crimson;
 }
 .float_r{
     float: right;
     max-width: 40%;
     margin-left: 15px;
+}
+.Maj{
+    color: crimson;
 }
 /* Dropdown Button */
 .dropbtn {

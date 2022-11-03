@@ -11,17 +11,6 @@ body{
 h1{
     text-align: center;
 }
-@media screen and (max-width: 480px) {
-    .desktop-only {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 481px) {
-    .moblie-only {
-        display: none;
-    }
-}
 header{
     margin: 55px auto auto auto;
 }
@@ -89,6 +78,20 @@ h1 span{
 }
 .Maj{
     color: crimson;
+}
+@media screen and (max-width: 760px) {
+    .desktop-only {
+        display: none;
+    }
+    header{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 761px) {
+    .moblie-only {
+        display: none;
+    }
 }
 /* Dropdown Button */
 .dropbtn {

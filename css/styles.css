@@ -3,11 +3,9 @@
     max-width: 790px;
 }
 body{
-    background-color: #FD816C;
-    background-image: url("../img/bkg.png");
-    background-repeat: repeat-x ;
-    max-width: 1920px;
- }
+    background: url("../img/bkg.png") no-repeat #FD816C;
+    background-size: cover;
+}
 h1{
     text-align: center;
 }

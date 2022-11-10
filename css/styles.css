@@ -66,6 +66,12 @@ nav ul{
 nav a:hover{
     background-color: crimson;
 }
+p a{
+    text-decoration: none;
+    color: white;
+    background: #1f0a07;
+    font-weight: bold;
+}
 h1 span{
     color: crimson;
 }
@@ -128,3 +134,9 @@ h1 span{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #FD816C;}
+#décembre{
+    margin-top: 46px;
+}
+#E{
+    list-style: decimal;
+}
